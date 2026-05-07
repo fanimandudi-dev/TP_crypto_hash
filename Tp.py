@@ -34,8 +34,8 @@ def my_hash(name):
     return f"{state:08x}".upper()
 
 # --- Test de l'algorithme ---
-nom_test = "TonNom"
-hash_result = algebraic_nexus_hash(nom_test)
+nom_test = "MANDUDI BOYO FANY"
+hash_result = my_hash(nom_test)
 
 print(f"Structure de hachage pour : {nom_test}")
 print(f"Empreinte Unique : {hash_result}")
